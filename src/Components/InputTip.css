@@ -147,4 +147,46 @@ label span.empty {
   text-align: right;
   background-color: #f3f9fa;
   border: none;
+  padding: 0.6rem 1.7rem;
+}
+
+@media (max-width: 32em) {
+  .container {
+    width: 37.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .input-container {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    gap: 3.2rem;
+  }
+
+  .input-bill {
+    width: 100%;
+  }
+
+  .num-of-people-box {
+    width: 100%;
+  }
+
+  .input-people {
+    width: 31.1rem;
+  }
+
+  .select-tip {
+    width: 31.1rem;
+  }
+
+  .percent-options {
+    grid-template-columns: 14.6rem 14.6rem;
+    grid-template-rows: 4.8rem 4.8rem 4.8rem;
+  }
 }

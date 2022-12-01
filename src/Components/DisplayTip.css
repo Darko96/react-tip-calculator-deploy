@@ -60,3 +60,20 @@
   background-color: var(--Light-grayish-cyan);
   color: var(--Very-dark-cyan);
 }
+
+@media (max-width: 32em) {
+  .display-container {
+    width: 32.7rem;
+    gap: 2rem;
+    padding: 2.4rem 3.7rem;
+  }
+
+  .display-bill {
+    margin-bottom: 3.2rem;
+  }
+
+  .amount {
+    font-size: 3.2rem;
+    line-height: 4.7rem;
+  }
+}

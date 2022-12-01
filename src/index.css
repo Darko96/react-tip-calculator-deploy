@@ -38,3 +38,10 @@ main {
   align-items: center;
   justify-content: center;
 }
+
+@media (max-width: 32em) {
+  main {
+    width: 100vw;
+    margin-top: 24.4rem;
+  }
+}
